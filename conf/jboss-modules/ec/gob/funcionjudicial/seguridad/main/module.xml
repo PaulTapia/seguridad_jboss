@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="ec.gob.funcionjudicial.seguridad">
+    <resources>
+        <resource-root path="resources"/>
+        <resource-root path="seguridad-1.0.jar"/>
+    </resources>
+    <dependencies>
+        <module name="ec.gob.funcionjudicial.identidad"/>
+        <module name="org.jasig.cas.client"/>
+        <module name="javax.servlet.api"/>
+        <module name="org.apache.log4j"/>
+        <module name="com.google.gson"/>
+        <!-- Añadir el módulo de Keycloak -->
+        <module name="org.keycloak.adapter"/>
+    </dependencies>
+</module>

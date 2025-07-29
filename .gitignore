@@ -1,0 +1,3 @@
+/target
+/${jboss.module.dir}
+/${jboss.module.dir}/*
